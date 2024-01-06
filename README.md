@@ -3,5 +3,11 @@
    <p>Aprendizados adquiridos durante o curso de JavaScript do canal <b><a href="https://youtube.com/playlist?list=PLx4x_zx8csUg_AxxbVWHEyAJ6cBdsYc0T&si=ouDcnFjWw4gfe6b5">CFB Cursos</a></b></p>
 </div>
 
+<h3>Sumário</h3>
+<ul>
+   <li>Aula 01 - Introdução ao JavaScript</li>
+   <li>Aula 02 - Utilizando o Modo Estrito</li>
+</ul>
+
 
  
