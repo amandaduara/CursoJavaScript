@@ -7,6 +7,7 @@
 <ul>
    <li>Aula 01 - Introdução ao JavaScript</li>
    <li>Aula 02 - Utilizando o Modo Estrito</li>
+   <li>Aula 03 - Diferença entre LET, VAR e CONST</li>
 </ul>
 
 
