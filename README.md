@@ -9,7 +9,7 @@
    <li>Aula 02 - Utilizando o Modo Estrito</li>
    <li>Aula 03 - Diferença entre LET, VAR e CONST</li>
    <li>Aula 04 - Operadores Matemáticos</li>
-   <li>Aula 05 - Operadores Relacionais e de Negação</li>
+   <li>Aula 05 - Operadores Relacionais e de Negação </li>
 </ul>
 
 
