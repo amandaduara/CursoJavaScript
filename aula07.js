@@ -10,8 +10,8 @@ n4=2
 
 //console.log(!((n1>n2)||(n1>n3)))
 
-if((n1<n2)&&(n3>n4)){
-    console.log(n1 + " maior que " + n2)
+if(!(n1>n2)||(n3>n4)){
+    console.log("verdadeiro")
 } else {
-    console.log(n1 + " menor que " + n2)
+    console.log("falso")
 }
