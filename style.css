@@ -1,0 +1,39 @@
+    *{ 
+    margin: 0px 0px 18px; 
+    }
+
+    body{
+        font-family: 'Inter',sans-serif; 
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .navbar{
+        background-color: #ff73d5;
+        text-align: center;
+        color: #ffffff;
+        font-size: x-small;
+        letter-spacing: 2px;
+    }
+
+    code {
+        background-color: #eee;
+        border-radius: 3px;
+        font-family: courier, monospace;
+        padding: 0 3px;
+    }
+
+    h1 {
+        color: #ff73d5;
+        font-size: 41.6px;
+    }
+
+    #titulo {
+        color: #616161;
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    .content{
+        margin: 50px 300px 30px 200px;
+    }
