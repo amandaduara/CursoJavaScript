@@ -45,3 +45,7 @@
     img {
         margin-top: 20px;
     }
+
+    .topicos {
+        display: inline-block;
+    }
