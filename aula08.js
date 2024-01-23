@@ -1,38 +1,21 @@
 /* Operadores BIT a BIT, trabalham no bit dos valores, deslocando ou operando esses valores */
 
-// let n1=11, n2=14
-// let res = n1 & n2 // and &
+let n1=10 //00001010
+let n2=12 //00001100
 
-// console.log(res)
-// ----------------
+console.log("Operando com AND: " + (n1 & n2)) //8 = 00001000
+// AND (&) Retorna 1 para cada bit que é 1 em ambos os operandos.
 
-// let n1=10, n2=11
-// let res = n1 | n2 //or |
+console.log("Operando com OR: " + (n1 | n2)) //14 = 00001110
+// OR (|) Retorna 1 para cada bit que é 1 em pelo menos um dos operandos.
 
-// console.log(res)
-// --------------------------
+console.log("Operando com XOR: " + (n1 ^ n2)) //6 = 00000110
+// XOR (^) Retorna 1 para cada bit que é 1 em um dos operandos, mas não em ambos.
 
-// let n1=13, n2=14
-// let res = n1 ^ n2 
+console.log("Deslocamento à esquerda de 10: " + (n1 << 1)) //20 = 00010100
+// Deslocamento à Esquerda (<<) Desloca os bits para a esquerda, preenchendo com zeros à direita.
 
-// console.log(res)
-//-----------------------------
+console.log("Deslocamento à direita de 10: " + (n1 >> 1)) //5 = 00000101
+// Deslocamento à Esquerda (<<) Desloca os bits para a direita, preenchendo com zeros à esquerda.
 
 /*Com isso é possivel dobrar um valor ou pega-lo pela metade*/
-
-// let n1=25
-// let res = n1 << 1 //deslocando 1 bit para a esquerda (estou dobrando o meu valor)
-
-// console.log(res)
-// -------------------------------
-
-// let n1=30
-// let res = n1 >> 1 //deslocando 1 bit para a esquerda (estou diminuindo o meu valor pela metade)
-
-// console.log(res)
-// -----------------------------------
-
-let n1=20
-let res = n1 << 2 //deslocando 1 bit para a esquerda (estou diminuindo o meu valor pela metade)
-
-console.log(res)
