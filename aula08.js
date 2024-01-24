@@ -1,4 +1,15 @@
-let n1=10 //00001010
+let n1=10
+console.log("Deslocamento à esquerda de 10: " + (n1 << 1))
+console.log("Deslocamento à direita de 10: " + (n1 >> 1))
+
+
+
+
+
+
+
+
+// let n1=10 //00001010
 let n2=12 //00001100
 
 console.log("Operando com AND: " + (n1 & n2)) //8 = 00001000
