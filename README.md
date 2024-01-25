@@ -11,6 +11,7 @@
    <li>Aula 04 - Operadores Matemáticos</li>
    <li>Aula 05 - Operadores Relacionais e de Negação </li>
    <li>Aula 07 - Operadores Lógicos</li>
+   <li>Aula 08 - Operadores Bitwise</li>
 </ul>
 
 
