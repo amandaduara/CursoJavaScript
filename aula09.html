@@ -11,54 +11,24 @@
         <h3>Anotações das aula</h3>
     </div>
     <div class="content">
-        <h1>Aula 8 - Operadores Bitwise</h1>
+        <h1>Aula 9 - Diferença entre Pré-Incremento e Pós-Decremento</h1>
         <br/>
-        <div id="titulo">OPERADORES BITWISE:</div> 
+        <div id="titulo">PRÉ-INCREMENTO ou PRÉ-DECREMENTO:</div> 
         <p>
-            Operadores bitwise são utilizados para realizar operações a nível de bits em valores numéricos. Eles operam em cada bit individual de dois operandos, realizando operações como AND, OR, XOR, deslocamento à esquerda e deslocamento à direita. 
-            <br/>
-            Esses operadores são frequentemente utilizados em programação de baixo nível, como em linguagens como C, C++, e também em situações em que é necessário manipular diretamente a representação binária dos dados.
+            Em JavaScript, o operador de pré-incremento é representado pelo símbolo <code>++</code> colocado <b>antes da variável</b>. O pré-incremento aumenta o valor da variável antes de qualquer outra avaliação ou operação.
         </p>
-        <img src="imgs/aula08_tabelabits.png" alt="Tabela Verdade" width="400" height="341" />
-        <ul>
-            <li>
-                <code>&</code> : <b>AND</b> 
-            <br/>Retorna 1 para cada bit que é 1 em ambos os operandos.
-            <br/>
-            <img src="imgs/aula08_and.png " width="400" height="341">
-            </li>
-            <br/>
-            <li>
-                <code>|</code> : <b>OR</b>
-                <br/>Retorna 1 para cada bit que é 1 em pelo menos um dos operandos.
-                <br/>
-                <img src="imgs/aula08_or.png" width="400" height="341">
-            </li>
-            <br/>
-            <li>
-                <code>^</code> : <b>XOR</b>
-                <br/>Retorna 1 para cada bit que é 1 em um dos operandos, mas não em ambos.
-                <br/>
-                <img src="imgs/aula08_xor.png" width="400" height="341">
-            </li>
-            <br/>
-            <li>
-                <code><<</code> : <b>DESLOCAMENTO À ESQUERDA</b>
-                <br/>Desloca os bits para a esquerda, preenchendo com zeros à direita.
-                <br/>
-                <img src="imgs/aula08_esquerda.jpg" width="400" height="341">
-            </li>
-            <br/>
-            <li>
-                <code>>></code> : <b>DESLOCAMENTO À DIREITA</b>
-                <br/>Desloca os bits para a direita, preenchendo com zeros à esquerda.
-                <br/>
-                <img src="imgs/aula08_direita.jpg" width="400" height="341">
-            </li>
-            <br/>
-        </ul>
+        <p>
+            No pré-decremento, o valor da variável é decrementado antes de qualquer outra avaliação ou operação. Isso é feito usando o operador <code>--</code> <b>antes da variável</b>.
+        </p>
         <br/>
+        <div id="titulo">PÓS-INCREMENTO ou PÓS-DECREMENTO:</div>
+        <p>
+            O operador de pós-incremento em JavaScript é representado pelo símbolo <code>++</code> colocado <b>após a variável</b>. Ao contrário do pré-incremento, o pós-incremento avalia a expressão e, em seguida, aumenta o valor da variável.
+        </p> 
+        <p>
+            No pós-decremento, o valor da variável é decrementado após a avaliação da expressão ou operação. Isso é feito usando o operador <code>--</code> <b>após a variável</b>. 
+        </p>
     </div>
-    <script src="aula08.js"></script>
+    <script src="aula09.js"></script>
 </body>
 </html>
