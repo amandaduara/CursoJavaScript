@@ -9,8 +9,8 @@ if (res == 0){
 }
 
 // Utilizando o operador ternário
-res = (res == 0 ? "Verdadeiro" : "Falso")
-console.log(res)
+let res2 = (res == 0 ? "Verdadeiro" : "Falso") // 0 = false 1 = true
+console.log(res2)
 
 
 
