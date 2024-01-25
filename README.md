@@ -12,6 +12,7 @@
    <li>Aula 05 - Operadores Relacionais e de Negação </li>
    <li>Aula 07 - Operadores Lógicos</li>
    <li>Aula 08 - Operadores Bitwise</li>
+   <li>Aula 09 - Diferença entre Pré-Incremento e Pós-Incremento</li>
 </ul>
 
 
