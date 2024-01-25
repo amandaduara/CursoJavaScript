@@ -13,6 +13,7 @@
    <li>Aula 07 - Operadores Lógicos</li>
    <li>Aula 08 - Operadores Bitwise</li>
    <li>Aula 09 - Diferença entre Pré-Incremento e Pós-Incremento</li>
+   <li>Aula 10 - Operador Ternário</li>
 </ul>
 
 
