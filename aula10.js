@@ -9,7 +9,7 @@ if (res == 0){
 }
 
 // Utilizando o operador ternário
-res=(!(num%2) ? "Verdadeiro" : "Falso") // 0 = false 1 = true
+res = (res == 0 ? "Verdadeiro" : "Falso")
 console.log(res)
 
 
