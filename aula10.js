@@ -1,7 +1,6 @@
 const num=10
 let res=num%2
 
-
 // Utilizando IF-ELSE
 if (res == 0){
     console.log("Par")
