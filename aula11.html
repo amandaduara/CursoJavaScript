@@ -4,31 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Aula 9 - Diferença entre Pré-Incremento e Pós-Incremento</title>
+    <title>Aula 11 - Operador Typeof</title>
 </head>
 <body>
     <div class="navbar">
-        <h3>Anotações da aula</h3>
+        <h3>Aula 11 - Operador Typeof</h3>
     </div>
     <div class="content">
-        <h1>Aula 9 - Diferença entre Pré-Incremento e Pós-Incremento</h1>
+        <h1></h1>
         <br/>
-        <div id="titulo">PRÉ-INCREMENTO ou PRÉ-DECREMENTO:</div> 
+        <div id="titulo">Retornando o tipo da variável</div> 
         <p>
-            Em JavaScript, o operador de pré-incremento é representado pelo símbolo <code>++</code> colocado <b>antes da variável</b>. O pré-incremento aumenta o valor da variável antes de qualquer outra avaliação ou operação.
+            Em JavaScript, o operador <b>typeof</b> é usado para obter o tipo de dado de uma expressão ou variável. Ele retorna uma string que representa o tipo do operando. Alguns dos valores retornados são:
         </p>
+        <ul>
+            <li>
+                <code>"number"</code> para números.
+            </li>
+            <li>
+                <code>"number"</code> para números.
+            </li>
+            <li>
+                <code>"string"</code> para strings.
+            </li>
+            <li>
+                <code>"boolean"</code> para booleanos.
+            </li>
+            <li>
+                <code>"undefined"</code> para valores indefinidos.
+            </li>
+            <li>
+                <code>"object"</code> para números (incluindo arrays e nulos).
+            </li>
+            <li>
+                <code>"function"</code> para funções.
+            </li>
+            <li>
+                <code>"symbol"</code> para símbolos (introduzidos no ECMAScript 6).
+            </li>
+        </ul>
         <p>
-            No pré-decremento, o valor da variável é decrementado antes de qualquer outra avaliação ou operação. Isso é feito usando o operador <code>--</code> <b>antes da variável</b>.
-        </p>
-        <br/>
-        <div id="titulo">PÓS-INCREMENTO ou PÓS-DECREMENTO:</div>
-        <p>
-            O operador de pós-incremento em JavaScript é representado pelo símbolo <code>++</code> colocado <b>após a variável</b>. Ao contrário do pré-incremento, o pós-incremento avalia a expressão e, em seguida, aumenta o valor da variável.
-        </p> 
-        <p>
-            No pós-decremento, o valor da variável é decrementado após a avaliação da expressão ou operação. Isso é feito usando o operador <code>--</code> <b>após a variável</b>. 
+            Além disso, tenha em mente que o <b>typeof</b> é uma ferramenta útil, mas nem sempre fornece a precisão desejada em situações mais complexas. Em alguns casos, é preferível usar outros métodos para verificar o tipo de dado, como o operador <b>instanceof</b> para objetos específico
         </p>
     </div>
-    <script src="aula09.js"></script>
+    <script src="aula11.js"></script>
 </body>
 </html>
