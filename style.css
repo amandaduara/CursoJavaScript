@@ -49,3 +49,11 @@
     .topicos {
         display: inline-block;
     }
+
+    .spread {
+        background-color: #CC768B;
+        border-radius: 3px;
+        font-family: 'Inter',sans-serif;
+        width: 10%;
+        padding: 0 3px;
+    }
