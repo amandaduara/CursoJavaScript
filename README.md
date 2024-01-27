@@ -15,6 +15,7 @@
    <li>Aula 09 - Diferença entre Pré-Incremento e Pós-Incremento</li>
    <li>Aula 10 - Operador Ternário</li>
    <li>Aula 11 - Operador Typeof, retornando o tipo da variável</li>
+   <li>Aula 12 - Operador Spread, aprendendo sobre o espalhador em Javascript</li>
 </ul>
 
 
