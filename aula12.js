@@ -30,11 +30,11 @@ console.log(jogador33)
 
 // --- Exemplo 4 ---
 
-//sem spread
 const soma = (v1, v2, v3) => {
     return v1 + v2 + v3
 }
 
+//sem spread
 console.log("Exemplo 4 - sem spread")
 console.log(soma (1, 5, 4))
 
