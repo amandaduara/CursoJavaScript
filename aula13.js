@@ -1,14 +1,17 @@
-// --- Exemplo 1 ---
+// --- IF-ELSE (Simples) ---
 
-let num_ex1 = 100
+let energia = 100
+let clima = "chovendo"
 
-console.log("Exemplo 1")
+console.log("Exemplo 3")
 
-if (num_ex1 > 10){
-    console.log("Numeral maior que 10")
+if (energia > 70 && clima == "sol"){
+    console.log("Vou a praia")
+} else {
+    console.log("Vou ao cinema")
 }
 
-// --- Exemplo 2 ---
+// --- IF-ELSE IF-ELSE (Múltiplas Condições) / IF-IF-ELSE (Alinhamento) ---
 
 let num_ex2 = 40
 
@@ -26,15 +29,5 @@ if (num_ex2 > 10){
     console.log("Numeral menor ou igual a 5")
 }
 
-// --- Exemplo 3 ---
 
-let energia = 100
-let clima = "chovendo"
 
-console.log("Exemplo 3")
-
-if (energia > 70 && clima == "sol"){
-    console.log("Vou a praia")
-} else {
-    console.log("Vou ao cinema")
-}
