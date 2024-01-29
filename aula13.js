@@ -16,6 +16,7 @@ console.log("Exemplo 2")
 
 if (num_ex2 > 10){
     console.log("Numeral maior que 10")
+    
     if (num_ex2 > 50){
         console.log("Numeral maior que 50")
     }
