@@ -1,11 +1,6 @@
-// cada repetição do loop é chamado de iteração
+// --- Exemplo 1 ---
 
-// Loops Definidos - FOR (Quando sei a quantidade de iterações que é preciso fzr)| Loops Indefinidos - While, Do While (Quando não sei a quantidade de iterações que é preciso fzr)
-
-// For (inicialização ; condição ; contador)
-
-console.log("Início do Programa")
-
+console.log("Exemplo 1")
 
 for(let i=0; i<10; i++){
     console.log("CFB Cursos - valor do i: " + i)
@@ -13,10 +8,9 @@ for(let i=0; i<10; i++){
 
 console.log("Fim do Programa")
 
-// ------------
+// --- Exemplo 2 ---
 
-console.log("Início do Programa")
-
+console.log("Exemplo 2")
 
 for(let i=0; i<12; i++){
     if(i%2 == 0){
