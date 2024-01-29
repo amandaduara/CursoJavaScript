@@ -3,7 +3,7 @@
 let energia = 100
 let clima = "chovendo"
 
-console.log("Exemplo 3")
+console.log("Exemplo 1 - Simples")
 
 if (energia > 70 && clima == "sol"){
     console.log("Vou a praia")
@@ -15,7 +15,7 @@ if (energia > 70 && clima == "sol"){
 
 let num_ex2 = 40
 
-console.log("Exemplo 2")
+console.log("Exemplo 2 - Múltiplas Condições / Alinhamento")
 
 if (num_ex2 > 10){
     console.log("Numeral maior que 10")
