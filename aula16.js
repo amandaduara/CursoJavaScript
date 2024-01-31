@@ -32,10 +32,12 @@ for (n of num){
 // --- Percorrendo os elementos do HTML ---
 const objs = document.getElementsByTagName("div")
 
+console.log("Utilizando FOR OF")
 for (o of objs){
     console.log(o)
 }
 
+console.log("Utilizando FOR IN")
 for (o in objs){
     console.log(o)
 }

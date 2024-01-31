@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Aula 16 - Loops FOR IN e FOR OF</title>
+</head>
+<body>
+    <div class="navbar">
+        <h3>Anotações da aula</h3>
+    </div>
+    <div class="content">
+        <h1>Aula 16 - Loops FOR IN e FOR OF</h1>
+        <br/>
+        <p>              
+            <code>for...in</code> e <code>for...of</code> são construções de loop em JavaScript, mas são usadas para finalidades diferentes e iteram em diferentes tipos de estruturas de dados.
+        </p>
+        <div id="titulo">FOR IN</div>
+        <p>
+            O <code>for...in</code> loop é usado para <b>iterar sobre as propriedades enumeráveis ​​de um objeto</b>. É comumente usado com objetos, pois itera sobre as chaves de um objeto. Sua sintaxe básica é:
+        </p>
+        <p><code>for (let var1 in var2)</code></p>
+        <div id="titulo">FOR OF</div>
+        <p>
+            O <code>for...of</code> loop é usado para <b>iterar sobre os valores de um objeto iterável</b>, como arrays, strings, mapas, conjuntos, etc. Ele fornece uma sintaxe mais simples em comparação com <code>for...in</code> quando você deseja iterar sobre valores em vez de chaves. Sua sintaxe básica é:
+        </p>
+        <p><code>for (let var1 of var2)</code></p>
+        <div id="titulo">Resumindo</div>
+        <ul>
+            <li>Use <b>FOR IN</b> quando quiser iterar nas propriedades (chaves) de um objeto.</li>
+            <li>Use <b>FOR OF</b> quando quiser iterar sobre os valores de um objeto iterável, como uma matriz ou string.</li>
+        </ul>
+    </div>
+<script src="aula16.js"></script>
+</body>
+</html>
