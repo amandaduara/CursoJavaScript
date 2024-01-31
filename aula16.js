@@ -1,28 +1,36 @@
-// let num = [10, 20, 30, 40, 50]
+let num = [10, 20, 30]
 
-// for(let i=0; i<num.length; i++){
-//     console.log(num[i])
-// }
+// --- Percorrendo os índices ---
 
-// for(n in num){
-//     console.log(num[n])
-// }
+console.log("Percorrendo os índices do array com FOR tradicional:")
+for(let i=0; i<num.length; i++){
+    console.log(i)
+}
 
-// for (n of num){
-//     console.log(n)
-// }
+console.log("Percorrendo os índices do array com FOR IN:")
+for(n in num){
+    console.log(n)
+}
 
-// for(let i=0; i<num.length; i++){
-//     console.log(i)
-// }
+// --- Percorrendo os elementos ---
 
-// for(n in num){
-//     console.log(n)
-// }
+console.log("Percorrendo os elementos do array com FOR tradicional:")
+for(let i=0; i<num.length; i++){
+    console.log(num[i])
+}
 
+console.log("Percorrendo os elementos do array com FOR IN:")
+for(n in num){
+    console.log(num[n])
+}
+
+console.log("Percorrendo os elementos do array com FOR OF:")
+for (n of num){
+    console.log(n)
+}
+
+// --- Percorrendo os elementos do HTML ---
 const objs = document.getElementsByTagName("div")
-
-let num = [10, 20, 30, 40, 50]
 
 for (o of objs){
     console.log(o)
