@@ -18,6 +18,7 @@
    <li>Aula 12 - Operador Spread, aprendendo sobre o espalhador em Javascript</li>
    <li>Aula 13 - Comando condicional IF e IF ELSE</li>
    <li>Aula 14 - Comando Switch Case</li>
+   <li>Aula 15 - Loop FOR </li>
 </ul>
 
 
