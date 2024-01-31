@@ -17,6 +17,7 @@
    <li>Aula 11 - Operador Typeof, retornando o tipo da variável</li>
    <li>Aula 12 - Operador Spread, aprendendo sobre o espalhador em Javascript</li>
    <li>Aula 13 - Comando condicional IF e IF ELSE</li>
+   <li>Aula 14 - Comando Switch Case</li>
 </ul>
 
 
