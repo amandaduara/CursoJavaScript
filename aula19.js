@@ -1,22 +1,21 @@
-let n = 0
-let max = 15
-
-// while(n<max){
-//     console.log("CFB Cursos - " + n)
-//     if(n>10){
-//         break
-//     }
-//     n++
-// }
-// console.log("Fim do Programa")
-
+let num1 = 0
+let num2 = 15
 let pares = 0
 
-for(let i=n; i<max; i++){
+console.log("Exemplo 1 - Break")
+while(num1<num2){
+    console.log("CFB Cursos - " + num1)
+    if(num1>3){
+        break
+    }
+    num1++
+}
+
+console.log("Exemplo 2 - Continue")
+for(let i=num1; i<num2; i++){
     if(i%2!=0){
         continue
     }
     pares++
 }
 console.log("Quantidade de pares: " + pares)
-console.log("Fim do programa")
