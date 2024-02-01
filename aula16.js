@@ -8,7 +8,7 @@ let num = [10, 20, 30]
 // }
 
 // console.log("FOR IN:")
-// for(n in num){
+// for(let n in num){
 //     console.log(n)
 // }
 
@@ -20,12 +20,12 @@ for(let i=0; i<num.length; i++){
 }
 
 console.log("FOR IN:")
-for(n in num){
+for(let n in num){
     console.log(num[n])
 }
 
 console.log("FOR OF:")
-for (n of num){
+for (let n of num){
     console.log(n)
 }
 
