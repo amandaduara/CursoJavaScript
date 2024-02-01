@@ -19,6 +19,7 @@
    <li>Aula 13 - Comando condicional IF e IF ELSE</li>
    <li>Aula 14 - Comando Switch Case</li>
    <li>Aula 15 - Loop FOR </li>
+   <li>Aula 16 - Loops FOR IN e FOR OF </li>
 </ul>
 
 
