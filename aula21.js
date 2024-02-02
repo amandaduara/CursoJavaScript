@@ -8,10 +8,11 @@ function canal(){
     } else {
         return "Ímpar"
     }  
+
     console.log("Fim da função") // retorna apenas 1 return
 }
 
 let res = canal()
 console.log(res)
 
-// resturn - a função realiza td o preocessamento e retorna um valor para qm chamou qnd acabar
+// return - a função realiza td o preocessamento e retorna um valor para qm chamou qnd acabar
