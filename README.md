@@ -20,6 +20,7 @@
    <li>Aula 14 - Comando Switch Case</li>
    <li>Aula 15 - Loop FOR </li>
    <li>Aula 16 - Loops FOR IN e FOR OF </li>
+   <li>Aula 17 - Loop While </li>
 </ul>
 
 
