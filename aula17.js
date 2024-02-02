@@ -19,5 +19,4 @@ while(num>=1){
     fatorial *= num
     num--
 }
-
 console.log("O fatorial de 5 é: " + fatorial)
