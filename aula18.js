@@ -2,7 +2,6 @@ let n = 10
 
 while(n<10){
     console.log("CFB Cursos - While")
-    n++
 }
 console.log("Fim do programa While")
 
