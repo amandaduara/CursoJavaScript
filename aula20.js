@@ -12,6 +12,6 @@ for(let i=0;i<3;i++){
 
 console.log("Exemplo 2 - DOM")
 function mudarTexto(){   
-    let d1 = document.getElementById("d1")
-    d1.innerHTML = "Curso HTML"
+    let d1 = document.getElementById("exFuncaoDom")
+    d1.innerHTML = "CFB Cursos"
 }
