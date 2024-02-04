@@ -8,6 +8,8 @@ function parImpar(){
     } else {
         return "Ímpar"
     }  
+
+    console.log("Fim da função") // retorna apenas 1 return
 }
 
 let res = parImpar()
