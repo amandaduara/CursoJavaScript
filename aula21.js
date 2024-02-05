@@ -1,9 +1,9 @@
 function parImpar(){
     const n1 = 210
     const n2 = 2
-    let res = n1*n2
+    let mult = n1*n2
 
-    if(!(res%2) == 0){
+    if(!(mult%2) == 0){
         return "Par"
     } else {
         return "Ímpar"
@@ -13,6 +13,6 @@ function parImpar(){
 }
 
 let res = parImpar()
-console.log(res)
+console.log("O número não é " + res)
 
 // return - a função realiza td o preocessamento e retorna um valor para qm chamou qnd acabar
