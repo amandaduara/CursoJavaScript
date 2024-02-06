@@ -22,7 +22,7 @@
    <li>Aula 16 - Loops FOR IN e FOR OF </li>
    <li>Aula 17 - Loop While </li>
    <li>Aula 18 - Diferença entre While e Do-While </li>
-   <li>Aula 19 - Declarações BREAK e CONTINUE <li>
+   <li>Aula 19 - Declarações BREAK e CONTINUE </li>
    <li>Aula 20 - Aprendendo sobre Funções <li>
    <!-- Aula 21 - Funções com Retorno <li> 06/02 -->
 </ul>
