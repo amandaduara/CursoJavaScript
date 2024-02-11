@@ -25,7 +25,6 @@
    <li>Aula 19 - Declarações BREAK e CONTINUE </li>
    <li>Aula 20 - Aprendendo sobre Funções </li>
    <li>Aula 21 - Funções com Retorno </li>
-   <!-- agendar posts -->
 </ul>
 
 
