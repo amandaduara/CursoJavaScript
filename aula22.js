@@ -1,84 +1,97 @@
-//EXEMPLO 1
-// function soma(p1){
-//     console.log(p1)
-// }
+// --- Exemplo 1 ---
+console.log("Exemplo 1")
 
-// soma("Amanda")
-// soma(2022)
-// soma(5.2)
+function exibir(p1){
+    console.log(p1)
+}
 
-//EXEMPLO 2
-// function soma(n1,n2){
-//     console.log(n1+n2)
-// }
+exibir("Amanda")
+exibir(2022)
+exibir(5.2)
 
-// soma(10,5)
+// --- Exemplo 2 ---
+console.log("Exemplo 2")
 
-//EXEMPLO 3
-// function soma(n1=0,n2=0){ // valores padrões
-//     console.log(n1+n2)
-// }
+function somaEx1(n1,n2){
+    console.log(n1+n2)
+}
 
-// soma(10)
+somaEx1(10,5)
 
-//EXEMPLO 4
-// function soma(n1=0,n2=0){ 
-//     return n1 + n2
-// }
+// --- Exemplo 3 ---
+console.log("Exemplo 3")
 
-// console.log(soma(5,5))
+function somaEx2(n1=0,n2=0){ // valores padrões
+    console.log(n1+n2)
+}
 
-//EXEMPLO 4.1
-// function soma(n1=0,n2=0){ 
-//     let res
-//     res = n1 + n2
-//     return res
-// }
+somaEx2(10)
 
-// let resultadoSoma = soma(5,5)
-// console.log(resultadoSoma)
+// --- Exemplo 4 ---
+console.log("Exemplo 4")
 
-//EXEMPLO 5
-// const valorPadrao = 0
+function somaEx3(n1=0,n2=0){ 
+    return n1 + n2
+}
 
-// function soma(n1=valorPadrao, n2=valorPadrao){
-//     let res
-//     res = n1 + n2
-//     return res
-// }
+console.log(somaEx3(5,5))
 
-// let resultadoSoma = soma(5)
-// console.log(resultadoSoma)
+// --- Exemplo 4.1 (maneira mais didática) ---
+console.log("Exemplo 4.1")
 
-//EXEMPLO 6
-// const valorPadrao = 0
+function somaEx4(n1=0,n2=0){ 
+    let res
+    res = n1 + n2
+    return res
+}
 
-// function add(v){
-//     return valor + v
-// }
+let totalEx4 = somaEx4(5,5)
+console.log(totalEx4)
 
-// let valor = 0
-// console.log(valor)
-
-// valor = add(10)
-// console.log(valor)
-
-// valor = add(5)
-// console.log(valor)
-
-//EXEMPLO 6.1
+// --- Exemplo 5 ---
+console.log("Exemplo 5")
 const valorPadrao = 0
 
+function somaEx5(n1=valorPadrao, n2=valorPadrao){
+    let res
+    res = n1 + n2
+    return res
+}
+
+let totalEx5 = somaEx5(5)
+console.log(totalEx5)
+
+// --- Exemplo 6 ---
+console.log("Exemplo 6")
+const valorPadrao1 = 0
+
 function add(v){
-    valor += v
+    return valor + v
 }
 
 let valor = 0
 console.log(valor)
 
-add(10)
+valor = add(10)
 console.log(valor)
 
-add(5)
+valor = add(5)
 console.log(valor)
+
+// --- Exemplo 6.1 (sem o uso do return) ---
+console.log("Exemplo 6.1")
+const valorPadrao2 = 0
+
+function adicionar(n){
+    numero += n
+}
+
+let numero = 0
+console.log(numero)
+
+adicionar(10)
+console.log(numero)
+
+adicionar(5)
+console.log(numero)
 
