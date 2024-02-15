@@ -1,3 +1,5 @@
+// parâmetros rest - posso criar uma função sem número determinado de valores.
+
 // --- Exemplo 1 (utilizando for tradicional) ---
 function somaTradicional(...valores){
     let tam = valores.length
