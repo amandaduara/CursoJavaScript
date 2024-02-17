@@ -26,7 +26,8 @@
    <li>Aula 20 - Aprendendo sobre Funções </li>
    <li>Aula 21 - Funções com Retorno</li>
    <li>Aula 22 - Funções com Parâmetros</li>
-   <li>Aula 22 - Parâmetros REST em Funções</li>
+   <li>Aula 23 - Parâmetros REST em Funções</li>
+   <li>Aula 24 - Funções Anônimas</li>
 </ul>
 
 
