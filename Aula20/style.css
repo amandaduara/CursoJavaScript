@@ -20,11 +20,23 @@
         color: #CC768B;
         font-size: 41.6px;
     }
-    
+
     .content{
         margin: 50px 300px 30px 200px;
     }
 
     b {
         color: #CC768B;
+    }
+
+    #exFuncaoDom {
+        background-color: #CC768B;
+        border-radius: 3px;
+        font-family: 'Inter',sans-serif;
+        width: 10%;
+        padding: 0 3px;
+    }
+
+    button {
+        background-color: #CC768B;
     }

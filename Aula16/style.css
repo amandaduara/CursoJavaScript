@@ -16,11 +16,24 @@
         letter-spacing: 2px;
     }
 
+    code {
+        background-color: #eee;
+        border-radius: 3px;
+        font-family: courier, monospace;
+        padding: 0 3px;
+    }
+
     h1 {
         color: #CC768B;
         font-size: 41.6px;
     }
-    
+
+    #titulo {
+        color: #616161;
+        font-weight: bold;
+        font-size: 21px;
+    }
+
     .content{
         margin: 50px 300px 30px 200px;
     }
