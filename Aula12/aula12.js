@@ -46,8 +46,8 @@
  
  // --- Exemplo 5 - UTILIZANDO O OPERADOR SPREAD NO HTML ---
  
- const objs1 = document.getElementsByTagName("div") //retorna uma coleção de elementos html, é diferente de um array, em vista dos elementos desta coleção
- const objs2 = [...document.getElementsByTagName("spread")]
+ const objs1 = document.getElementsByClassName("spread") //retorna uma coleção de elementos html, é diferente de um array, em vista dos elementos desta coleção
+ const objs2 = [...document.getElementsByClassName("spread")]
  
  // objs1.forEach(element => { // retorna erro pq forEach não é reconhecido como uma função do objs1 pois é um HTMLCollection e não um array
  //     console.log(element)
