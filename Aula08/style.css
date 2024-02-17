@@ -45,23 +45,3 @@
     img {
         margin-top: 20px;
     }
-
-    .spread {
-        background-color: #CC768B;
-        border-radius: 3px;
-        font-family: 'Inter',sans-serif;
-        width: 10%;
-        padding: 0 3px;
-    }
-
-    #exFuncaoDom {
-        background-color: #CC768B;
-        border-radius: 3px;
-        font-family: 'Inter',sans-serif;
-        width: 10%;
-        padding: 0 3px;
-    }
-
-    button {
-        background-color: #CC768B;
-    }

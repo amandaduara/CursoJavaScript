@@ -16,13 +16,6 @@
         letter-spacing: 2px;
     }
 
-    code {
-        background-color: #eee;
-        border-radius: 3px;
-        font-family: courier, monospace;
-        padding: 0 3px;
-    }
-
     h1 {
         color: #CC768B;
         font-size: 41.6px;
@@ -38,30 +31,10 @@
         margin: 50px 300px 30px 200px;
     }
 
-    b {
-        color: #CC768B;
-    }
-
-    img {
-        margin-top: 20px;
-    }
-
-    .spread {
+    .grifar {
         background-color: #CC768B;
         border-radius: 3px;
         font-family: 'Inter',sans-serif;
         width: 10%;
         padding: 0 3px;
-    }
-
-    #exFuncaoDom {
-        background-color: #CC768B;
-        border-radius: 3px;
-        font-family: 'Inter',sans-serif;
-        width: 10%;
-        padding: 0 3px;
-    }
-
-    button {
-        background-color: #CC768B;
     }

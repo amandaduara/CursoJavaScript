@@ -1,0 +1,26 @@
+    *{ 
+    margin: 0px 0px 18px; 
+    }
+
+    body{
+        font-family: 'Inter',sans-serif; 
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .navbar{
+        background-color: #CC768B;
+        text-align: center;
+        color: #ffffff;
+        font-size: x-small;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        color: #CC768B;
+        font-size: 41.6px;
+    }
+
+    .content{
+        margin: 50px 300px 30px 200px;
+    }
