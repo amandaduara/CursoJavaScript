@@ -7,5 +7,5 @@ console.log(soma(10,5)) // escopo mais simples = sem chaves
 const nome = n=>{return n}
 console.log(nome("Amanda"))
 
-const add = n=>n+10
+const add = n=>n+20
 console.log(add(10))
