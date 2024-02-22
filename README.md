@@ -28,6 +28,7 @@
    <li>Aula 22 - Funções com Parâmetros</li>
    <li>Aula 23 - Parâmetros REST em Funções</li>
    <li>Aula 24 - Funções Anônimas</li>
+   <li>Aula 25 - Funções Contrutoras Anônimas</li>
 </ul>
 
 
