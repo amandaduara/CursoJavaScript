@@ -51,7 +51,7 @@ function* contador5(){
     }
 }
 const contar5 = contador5()
-console.log("Exemplo 3")
+console.log("Exemplo 4")
 for(c of contar5){
     console.log(c)
 }
