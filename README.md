@@ -29,7 +29,7 @@
    <li>Aula 23 - Parâmetros REST em Funções</li>
    <li>Aula 24 - Funções Anônimas</li>
    <li>Aula 25 - Funções Contrutoras Anônimas</li>
-   <!-- 26, 27 e 28 finalizadas -->
+   <!-- 26, 27, 28 e 29 finalizadas -->
 </ul>
 
 
